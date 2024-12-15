@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "#": "#minecraft:planks",
+    "X": "minecraft:torch"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecrap:tv"
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "minecrap",
+	"version": "${version}",
+	"name": "Minecrap",
+	"description": "Minecraft shenanningangas mod, play at your own risk.",
+	"authors": [
+		"Tony!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/minecrap/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tony.minecrap.Minecrap"
+		],
+		"fabric-datagen": [
+			"net.tony.minecrap.MinecrapDataGenerator"
+		],
+		"client": [
+			"net.tony.minecrap.MinecrapModClient"
+		]
+	},
+	"mixins": [
+		"minecrap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
