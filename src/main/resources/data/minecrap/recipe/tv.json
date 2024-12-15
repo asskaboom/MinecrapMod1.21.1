@@ -1,9 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category" : "misc",
+  "category": "misc",
   "key": {
-    "#": "#minecraft:planks",
-    "X": "minecraft:torch"
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:torch"
+    }
   },
   "pattern": [
     "###",

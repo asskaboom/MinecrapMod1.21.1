@@ -17,10 +17,10 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     //new blocks
-    public static final Block CONVEYOR_BELT_BLOCK = registerBlock("conveyor_belt_block.json",
+    public static final Block CONVEYOR_BELT_BLOCK = registerBlock("conveyor_belt_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(1f)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Minecrap.MOD_ID,"conveyor_belt_block.json.json")))));
+                    .requiresTool()));
 
 
 
@@ -32,7 +32,7 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(Minecrap.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Minecrap.MOD_ID, name))).useBlockPrefixedTranslationKey()));
+                new BlockItem(block, new Item.Settings()));
     }
 
 

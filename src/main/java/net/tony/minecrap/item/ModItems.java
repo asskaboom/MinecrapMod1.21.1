@@ -18,7 +18,7 @@ public class ModItems {
 
     //Methods
     private static Item registerItem(String name){
-        return Registry.register(Registries.ITEM, Identifier.of(Minecrap.MOD_ID, name), new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Minecrap.MOD_ID,name)))));
+        return Registry.register(Registries.ITEM, Identifier.of(Minecrap.MOD_ID, name), new Item(new Item.Settings()));
     }
 
     public static void registerModItems(){

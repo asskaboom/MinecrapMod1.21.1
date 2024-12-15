@@ -9,19 +9,18 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.tony.minecrap.Minecrap;
+import net.tony.minecrap.block.ModBlocks;
 
 public class ModItemGroups {
-    /*
     //Groups
     public static final ItemGroup SHMOOVE_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Minecrap.MOD_ID, "shmoove_items"),
-            FabricItemGroup.builder().icon(()->new ItemStack(ModItems.CONVEYOR_BELT))
+            FabricItemGroup.builder().icon(()->new ItemStack(ModBlocks.CONVEYOR_BELT_BLOCK))
                     .displayName(Text.translatable("itemgroup.minecrap.shmoove_items"))
                     .entries((displayContext, entries) -> {
                         //add items to group
-                        entries.add(ModItems.CONVEYOR_BELT);
+                        entries.add(ModBlocks.CONVEYOR_BELT_BLOCK);
                     }).build());
-    */
 
     public static final ItemGroup MEMES_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Minecrap.MOD_ID, "meme_items"),
