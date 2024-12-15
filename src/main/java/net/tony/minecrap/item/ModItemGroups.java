@@ -29,6 +29,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         //add items to group
                         entries.add(ModItems.TV);
+                        entries.add(ModItems.HOOKSHOT);
                     }).build());
 
 
