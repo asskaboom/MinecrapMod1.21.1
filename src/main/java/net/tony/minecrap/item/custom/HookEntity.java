@@ -24,8 +24,8 @@ public class HookEntity extends PersistentProjectileEntity {
     private boolean isPulling = false;
     private ItemStack stack;
 
-    private double maxRange = 0D;
-    private double maxSpeed = 0D;
+    private double maxRange = 100;
+    private double maxSpeed = 50;
 
 
     protected HookEntity(EntityType<? extends PersistentProjectileEntity> type, LivingEntity owner, World world, ItemStack stack, @Nullable ItemStack shotFrom) {

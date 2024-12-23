@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "minecrap:block/conveyor_belt_block",
+      "y": 90
+    },
+    "facing=north": {
       "model": "minecrap:block/conveyor_belt_block"
+    },
+    "facing=south": {
+      "model": "minecrap:block/conveyor_belt_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecrap:block/conveyor_belt_block",
+      "y": 270
     }
   }
 }

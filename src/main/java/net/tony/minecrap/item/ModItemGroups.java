@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         //add items to group
                         entries.add(ModBlocks.CONVEYOR_BELT_BLOCK);
+                        //entries.add(ModBlocks.TV_BLOCK);
                     }).build());
 
     public static final ItemGroup MEMES_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -28,7 +29,6 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.minecrap.meme_items"))
                     .entries((displayContext, entries) -> {
                         //add items to group
-                        entries.add(ModItems.TV);
                         entries.add(ModItems.HOOKSHOT);
                     }).build());
 

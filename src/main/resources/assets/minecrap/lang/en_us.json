@@ -2,7 +2,12 @@
   "item.minecrap.tv": "Television",
   "item.minecrap.hook": "Hookshot",
 
+  "item.minecrap.raw_amogus" : "Raw Amogus",
+  "item.minecrap.amogus_ingot" : "Amogus Ingot",
+
   "block.minecrap.conveyor_belt_block": "Conveyor Belt",
+  "block.minecrap.amogus_ore_block" : "Amogus Ore",
+  "tooltip.minecrap.amogus_ingot.tooltip" : "Sus",
 
   "itemgroup.minecrap.shmoove_items" : "Shmoove Items",
   "itemgroup.minecrap.meme_items" : "Meme Items"
