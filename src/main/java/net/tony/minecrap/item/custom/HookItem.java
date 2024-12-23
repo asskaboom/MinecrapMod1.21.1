@@ -6,9 +6,12 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.*;
 import net.minecraft.world.World;
+import net.tony.minecrap.sound.ModSounds;
+
 import java.util.List;
 
 public class HookItem extends Item {
@@ -31,7 +34,7 @@ public class HookItem extends Item {
                 world.spawnEntity(hookshot);
 
 
-            world.playSound(user, user.getBlockPos(), SoundEvents.ENTITY_ARROW_SHOOT, SoundCategory.PLAYERS, 1F, 1F);
+            world.playSound(user, user.getBlockPos(), ModSounds.HOOK_USE, SoundCategory.PLAYERS, 1F, 1F);
         }
         return super.use(world, user, hand);
     }

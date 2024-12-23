@@ -48,6 +48,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         //add items to group
                         entries.add(ModItems.HOOKSHOT);
+                        entries.add(ModItems.LEGACY_MUSIC_DISC);
                     }).build());
 
 

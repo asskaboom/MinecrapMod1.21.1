@@ -13,6 +13,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.tony.minecrap.item.custom.HammerItem;
 import net.tony.minecrap.item.custom.HookItem;
+import net.tony.minecrap.item.custom.ModArmorItem;
+import net.tony.minecrap.sound.ModSounds;
 
 import java.util.List;
 
@@ -21,6 +23,11 @@ public class ModItems {
     //Items
     //public static final Item CONVEYOR_BELT = registerItem( "conveyor_belt_block.json");
     public static final Item TV = registerItem("tv", new Item(new Item.Settings()));
+    public static final Item LEGACY_MUSIC_DISC = registerItem("legacy_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.LEGACY_KEY).maxCount(1)));
+
+
+
     public static final Item RAW_AMOGUS = registerItem("raw_amogus", new Item(new Item.Settings()));
     public static final Item AMOGUS_INGOT = registerItem("amogus_ingot", new Item(new Item.Settings()){
         @Override
@@ -32,7 +39,7 @@ public class ModItems {
     public static final Item HOOKSHOT = registerItem("hook", new HookItem(new Item.Settings()));
 
     public static final Item AMOGUS_HELMET = registerItem("amogus_helmet",
-            new ArmorItem(ModArmorMaterials.AMOGUS_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.AMOGUS_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(30))));
     public static final Item AMOGUS_CHESTPLATE = registerItem("amogus_chestplate",
             new ArmorItem(ModArmorMaterials.AMOGUS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()

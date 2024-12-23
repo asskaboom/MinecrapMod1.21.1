@@ -14,6 +14,7 @@ import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.tony.minecrap.sound.ModSounds;
 import org.jetbrains.annotations.Nullable;
 
 
@@ -41,7 +42,7 @@ public class HookEntity extends PersistentProjectileEntity {
 
         if(getOwner() instanceof PlayerEntity owner) {
             if(isPulling && age % 2 == 0)
-                world.playSound(null, getOwner().getBlockPos(), SoundEvents.ENTITY_DOLPHIN_JUMP, SoundCategory.PLAYERS, 1F, 1F);
+                world.playSound(null, getOwner().getBlockPos(), ModSounds.HOOK_USE, SoundCategory.PLAYERS, 0.5F, 1F);
 
             if(!world.isClient) {
                 if(owner.isDead() || owner.distanceTo(this) > maxRange || !(owner.getMainHandStack().getItem() instanceof HookItem || owner.getOffHandStack().getItem() instanceof HookItem) )

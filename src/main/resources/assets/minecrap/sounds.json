@@ -1,0 +1,22 @@
+{
+  "hook_use": {
+    "subtitle": "sounds.minecrap.hook_use",
+    "sounds": [
+      "minecrap:hook_use"
+    ]
+  },
+  "villager_trade":{
+   "subtitle" : "sounds.minecrap.villager_trade",
+   "sounds": [
+    "minecrap:villager_trade"
+   ]
+  },
+  "legacy": {
+    "sounds": [
+      {
+        "name": "minecrap:legacy",
+        "stream": true
+      }
+    ]
+  }
+}

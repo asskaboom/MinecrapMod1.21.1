@@ -1,6 +1,12 @@
 {
   "item.minecrap.tv": "Television",
   "item.minecrap.hook": "Hookshot",
+  "sounds.minecrap.hook_use" : "Hookshot Sound",
+
+  "item.minecrap.legacy_music_disc": "Legacy",
+  "item.minecrap.legacy_music_disc.desc": "Jon Lachney - Legacy",
+
+
 
   "item.minecrap.raw_amogus" : "Raw Amogus",
   "item.minecrap.amogus_ingot" : "Amogus Ingot",

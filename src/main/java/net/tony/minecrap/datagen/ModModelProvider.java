@@ -1,6 +1,7 @@
 
 package net.tony.minecrap.datagen;
 
+import com.ibm.icu.text.Normalizer2;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
@@ -28,6 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AMOGUS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_AMOGUS, Models.GENERATED);
         itemModelGenerator.register(ModItems.AMOGUS_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.LEGACY_MUSIC_DISC, Models.GENERATED);
 
     }
 }
