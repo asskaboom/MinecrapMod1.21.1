@@ -21,7 +21,7 @@ import org.apache.logging.log4j.spi.LoggerRegistry;
 import org.jetbrains.annotations.Nullable;
 
 public class ConveyorBlock extends HorizontalFacingBlock {
-    private static final double beltSpeed = 1.5F;
+    private static final double beltSpeed = 5F;
     public static final MapCodec<ConveyorBlock> CODEC = Block.createCodec(ConveyorBlock::new);
 
 

@@ -37,6 +37,8 @@ public class ModItemGroups {
                         entries.add(ModItems.AMOGUS_INGOT);
                         entries.add(ModItems.RAW_AMOGUS);
 
+                        entries.add(ModItems.AMOGUS_HAMMER);
+
                     }).build());
 
     public static final ItemGroup MEMES_GROUP = Registry.register(Registries.ITEM_GROUP,

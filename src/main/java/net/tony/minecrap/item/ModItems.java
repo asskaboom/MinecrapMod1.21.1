@@ -1,19 +1,17 @@
 package net.tony.minecrap.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.tony.minecrap.item.ModArmorMaterials;
 import net.tony.minecrap.Minecrap;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.tony.minecrap.item.custom.HammerItem;
 import net.tony.minecrap.item.custom.HookItem;
 
 import java.util.List;
@@ -45,6 +43,10 @@ public class ModItems {
     public static final Item AMOGUS_BOOTS= registerItem("amogus_boots",
             new ArmorItem(ModArmorMaterials.AMOGUS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(30))));
+
+    public static final Item AMOGUS_HAMMER = registerItem("amogus_hammer",
+            new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
 
 
     //Methods

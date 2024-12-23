@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecrap:amogus_ingot"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ATA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecrap:tv"
+  }
+}

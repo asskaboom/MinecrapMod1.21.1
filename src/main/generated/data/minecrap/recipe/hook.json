@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecrap:amogus_ingot"
+    },
+    "H": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AS ",
+    "  H"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecrap:hook"
+  }
+}

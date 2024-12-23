@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_amogus_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecrap:amogus_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecrap:amogus_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amogus_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecrap:amogus_chestplate"
+    ]
+  }
+}

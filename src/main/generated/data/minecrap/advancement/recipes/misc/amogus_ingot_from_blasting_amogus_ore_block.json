@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_amogus_ore_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecrap:amogus_ore_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:amogus_ingot_from_blasting_amogus_ore_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amogus_ore_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:amogus_ingot_from_blasting_amogus_ore_block"
+    ]
+  }
+}
