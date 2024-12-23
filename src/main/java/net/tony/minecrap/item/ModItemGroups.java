@@ -23,6 +23,22 @@ public class ModItemGroups {
                         //entries.add(ModBlocks.TV_BLOCK);
                     }).build());
 
+    public static final ItemGroup AMOGUS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Minecrap.MOD_ID, "amogus_items"),
+            FabricItemGroup.builder().icon(()->new ItemStack(ModItems.AMOGUS_INGOT))
+                    .displayName(Text.translatable("itemgroup.minecrap.amogus_items"))
+                    .entries((displayContext, entries) -> {
+                        //add items to group
+                        entries.add(ModItems.AMOGUS_HELMET);
+                        entries.add(ModItems.AMOGUS_CHESTPLATE);
+                        entries.add(ModItems.AMOGUS_LEGGINGS);
+                        entries.add(ModItems.AMOGUS_BOOTS);
+
+                        entries.add(ModItems.AMOGUS_INGOT);
+                        entries.add(ModItems.RAW_AMOGUS);
+
+                    }).build());
+
     public static final ItemGroup MEMES_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Minecrap.MOD_ID, "meme_items"),
             FabricItemGroup.builder().icon(()->new ItemStack(ModItems.TV))

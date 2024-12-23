@@ -29,6 +29,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 200, "pink_garnet");
         offerBlasting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 100, "pink_garnet");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_HELMET)
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_CHESTPLATE)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_LEGGINGS)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_BOOTS)
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .offerTo(exporter);
+
         //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
 
 

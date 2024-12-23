@@ -2,6 +2,7 @@ package net.tony.minecrap.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.tag.ItemTags;
 import net.tony.minecrap.item.ModItems;
 import net.tony.minecrap.util.ModTags;
 import net.minecraft.item.Items;
@@ -22,6 +23,18 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.COAL)
                 .add(Items.STICK)
                 .add(Items.APPLE);*/
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.AMOGUS_HELMET)
+                .add(ModItems.AMOGUS_CHESTPLATE)
+                .add(ModItems.AMOGUS_LEGGINGS)
+                .add(ModItems.AMOGUS_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.DYEABLE)
+                .add(ModItems.AMOGUS_HELMET)
+                .add(ModItems.AMOGUS_CHESTPLATE)
+                .add(ModItems.AMOGUS_LEGGINGS)
+                .add(ModItems.AMOGUS_BOOTS);
 
     }
 }

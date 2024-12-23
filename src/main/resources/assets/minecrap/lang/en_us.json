@@ -4,11 +4,16 @@
 
   "item.minecrap.raw_amogus" : "Raw Amogus",
   "item.minecrap.amogus_ingot" : "Amogus Ingot",
+  "item.minecrap.amogus_helmet"  : "Amogus Helmet",
+  "item.minecrap.amogus_chestplate"  : "Amogus Chestplate",
+  "item.minecrap.amogus_leggings"  : "Amogus Leggings",
+  "item.minecrap.amogus_boots"  : "Amogus Boots",
 
   "block.minecrap.conveyor_belt_block": "Conveyor Belt",
   "block.minecrap.amogus_ore_block" : "Amogus Ore",
   "tooltip.minecrap.amogus_ingot.tooltip" : "Sus",
 
   "itemgroup.minecrap.shmoove_items" : "Shmoove Items",
-  "itemgroup.minecrap.meme_items" : "Meme Items"
+  "itemgroup.minecrap.meme_items" : "Meme Items",
+  "itemgroup.minecrap.amogus_items" : "Amogus Items"
 }
