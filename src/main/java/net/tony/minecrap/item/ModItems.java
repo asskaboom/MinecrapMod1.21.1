@@ -25,9 +25,7 @@ public class ModItems {
     public static final Item TV = registerItem("tv", new Item(new Item.Settings()));
     public static final Item LEGACY_MUSIC_DISC = registerItem("legacy_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.LEGACY_KEY).maxCount(1)));
-
-
-
+    
     public static final Item RAW_AMOGUS = registerItem("raw_amogus", new Item(new Item.Settings()));
     public static final Item AMOGUS_INGOT = registerItem("amogus_ingot", new Item(new Item.Settings()){
         @Override
@@ -55,6 +53,9 @@ public class ModItems {
             new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
 
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
+            new PickaxeItem(ModToolMaterials.EMERALD,new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
 
     //Methods
     private static Item registerItem(String name, Item item){
@@ -67,6 +68,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RAW_AMOGUS);
             entries.add(AMOGUS_INGOT);
+            entries.add(EMERALD_PICKAXE);
         });
 
 
