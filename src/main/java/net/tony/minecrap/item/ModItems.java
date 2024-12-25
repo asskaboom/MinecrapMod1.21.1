@@ -54,7 +54,7 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
 
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
-            new PickaxeItem(ModToolMaterials.EMERALD,new Item.Settings()
+            new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
 
     //Methods

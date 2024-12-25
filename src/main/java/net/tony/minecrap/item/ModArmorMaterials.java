@@ -51,6 +51,27 @@ public class ModArmorMaterials {
             0.0F,
             true);
 
+
+
+    public static final RegistryEntry<ArmorMaterial> EMERALD_ARMOR_MATERIAL = registerMaterial("emerald",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 2,
+                    ArmorItem.Type.CHESTPLATE, 6,
+                    ArmorItem.Type.LEGGINGS, 4,
+                    ArmorItem.Type.BOOTS, 2
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            5,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.EMERALD),
+            0.0F,
+            0.0F,
+            false);
+
+
     public static RegistryEntry<ArmorMaterial> registerMaterial(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, RegistryEntry<SoundEvent> equipSound, Supplier<Ingredient> repairIngredientSupplier, float toughness, float knockbackResistance, boolean dyeable) {
         // Get the supported layers for the armor material
         List<ArmorMaterial.Layer> layers = List.of(
