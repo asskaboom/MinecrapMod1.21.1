@@ -66,19 +66,17 @@ public class ModItems {
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
             new Item.Settings().maxCount(1));
 
-    public static final Item EMERALD_CHESTPLATE = new ModArmorItem(
+    public static final Item EMERALD_CHESTPLATE = new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
             new Item.Settings().maxCount(1));
 
-    public static final Item EMERALD_LEGGINGS = new ModArmorItem(
+    public static final Item EMERALD_LEGGINGS = new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
             new Item.Settings().maxCount(1));
 
-    public static final Item EMERALD_BOOTS = new ModArmorItem(
+    public static final Item EMERALD_BOOTS = new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
             new Item.Settings().maxCount(1));
-
-
 
 
     //Methods
