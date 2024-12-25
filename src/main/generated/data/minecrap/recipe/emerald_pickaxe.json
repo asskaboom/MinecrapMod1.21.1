@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "EEE",
-    " S ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
     "E": {
       "item": "minecraft:emerald"
@@ -13,8 +9,13 @@
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "EEE",
+    " S ",
+    " S "
+  ],
   "result": {
     "count": 1,
-    "item": "minecrap:emerald_pickaxe"
+    "id": "minecrap:emerald_pickaxe"
   }
 }

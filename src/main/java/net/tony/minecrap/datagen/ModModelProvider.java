@@ -30,6 +30,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_AMOGUS, Models.GENERATED);
         itemModelGenerator.register(ModItems.AMOGUS_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMOGUS_EXCAVATOR, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.LEGACY_MUSIC_DISC, Models.GENERATED);
 

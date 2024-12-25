@@ -1,10 +1,12 @@
-// 1.21.1	2024-12-23T15:19:38.6317919	Minecrap/Model Definitions
-d4bb2284e50e29dd9818c7eb1732ac0be2195e1e assets\minecrap\models\item\raw_amogus.json
-c57d97d1591bc60cd1caa7d67befe129e3dd1927 assets\minecrap\models\item\amogus_ingot.json
-bf9b26819322481f4b276aaa8959d36a5495c2b4 assets\minecrap\models\block\amogus_ore_block.json
-b81bfea270f60f3b983111204fce3f2c4c531ba1 assets\minecrap\models\item\tv.json
-ac219e1c0edf8ecdb7a9f248355d24089d605c2a assets\minecrap\models\item\amogus_hammer.json
-9822240d7b4243da643bf78f90d37ed511f13b32 assets\minecrap\models\item\amogus_ore_block.json
-2241d7d986a55b36edcc18e1beb02ef10ed5f5d4 assets\minecrap\models\item\hook.json
-44e17b38d54eaf16b318d392466ea60cfc3c1362 assets\minecrap\models\item\legacy_music_disc.json
-fda690d463637cf210c00c5387125e653a3e4496 assets\minecrap\blockstates\amogus_ore_block.json
+// 1.21.1	2024-12-25T09:49:38.601877554	Minecrap/Model Definitions
+2241d7d986a55b36edcc18e1beb02ef10ed5f5d4 assets/minecrap/models/item/hook.json
+ac219e1c0edf8ecdb7a9f248355d24089d605c2a assets/minecrap/models/item/amogus_hammer.json
+bf9b26819322481f4b276aaa8959d36a5495c2b4 assets/minecrap/models/block/amogus_ore_block.json
+9822240d7b4243da643bf78f90d37ed511f13b32 assets/minecrap/models/item/amogus_ore_block.json
+147c9fa94fa18a5aa7f632b8b0d6836aea90f346 assets/minecrap/models/item/amogus_excavator.json
+fda690d463637cf210c00c5387125e653a3e4496 assets/minecrap/blockstates/amogus_ore_block.json
+982c7e1dc419f19640ea9571c726d8bc52c77aea assets/minecrap/models/item/emerald_pickaxe.json
+44e17b38d54eaf16b318d392466ea60cfc3c1362 assets/minecrap/models/item/legacy_music_disc.json
+d4bb2284e50e29dd9818c7eb1732ac0be2195e1e assets/minecrap/models/item/raw_amogus.json
+c57d97d1591bc60cd1caa7d67befe129e3dd1927 assets/minecrap/models/item/amogus_ingot.json
+b81bfea270f60f3b983111204fce3f2c4c531ba1 assets/minecrap/models/item/tv.json
