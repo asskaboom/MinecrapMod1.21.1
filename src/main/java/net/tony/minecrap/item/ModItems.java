@@ -62,21 +62,24 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
 
 
-    public static final Item EMERALD_HELMET = new ModArmorItem(
-            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-            new Item.Settings().maxCount(1));
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+        new ModArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            new Item.Settings().maxCount(1)));
 
-    public static final Item EMERALD_CHESTPLATE = new ArmorItem(
+    public static final Item EMERALD_CHESTPLATE =registerItem("emerald_chestplate",
+            new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-            new Item.Settings().maxCount(1));
+            new Item.Settings().maxCount(1)));
 
-    public static final Item EMERALD_LEGGINGS = new ArmorItem(
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-            new Item.Settings().maxCount(1));
+            new Item.Settings().maxCount(1)));
 
-    public static final Item EMERALD_BOOTS = new ArmorItem(
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-            new Item.Settings().maxCount(1));
+            new Item.Settings().maxCount(1)));
 
 
     //Methods

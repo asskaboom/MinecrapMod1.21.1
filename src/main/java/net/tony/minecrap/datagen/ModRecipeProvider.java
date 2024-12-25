@@ -68,7 +68,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A', ModItems.AMOGUS_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
-                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
@@ -79,7 +78,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A', ModItems.AMOGUS_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
-                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 

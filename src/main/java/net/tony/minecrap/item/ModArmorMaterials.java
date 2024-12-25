@@ -53,8 +53,7 @@ public class ModArmorMaterials {
     );
 
 
-
-    public static final RegistryEntry<ArmorMaterial> EMERALD_ARMOR_MATERIAL = registerMaterial("emerald",
+    public static final RegistryEntry<ArmorMaterial> EMERALD_ARMOR_MATERIAL = registerMaterial_no_overlay("emerald",
             // Defense (protection) point values for each armor piece.
             Map.of(
                     ArmorItem.Type.HELMET, 2,
@@ -81,6 +80,21 @@ public class ModArmorMaterials {
                 // We can just pass the armor material ID as the texture layer ID.
                 new ArmorMaterial.Layer(Identifier.of(Minecrap.MOD_ID, id), "", dyeable),
                 new ArmorMaterial.Layer(Identifier.of(Minecrap.MOD_ID, id), "_overlay", false)
+        );
+
+        ArmorMaterial material = new ArmorMaterial(defensePoints, enchantability, equipSound, repairIngredientSupplier, layers, toughness, knockbackResistance);
+        // Register the material within the ArmorMaterials registry.
+        material = Registry.register(Registries.ARMOR_MATERIAL, Identifier.of(Minecrap.MOD_ID, id), material);
+
+        // The majority of the time, you'll want the RegistryEntry of the material - especially for the ArmorItem constructor.
+        return RegistryEntry.of(material);
+    }
+    public static RegistryEntry<ArmorMaterial> registerMaterial_no_overlay(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, RegistryEntry<SoundEvent> equipSound, Supplier<Ingredient> repairIngredientSupplier, float toughness, float knockbackResistance, boolean dyeable) {
+        // Get the supported layers for the armor material
+        List<ArmorMaterial.Layer> layers = List.of(
+                // The ID of the texture layer, the suffix, and whether the layer is dyeable.
+                // We can just pass the armor material ID as the texture layer ID.
+                new ArmorMaterial.Layer(Identifier.of(Minecrap.MOD_ID, id), "", dyeable)
         );
 
         ArmorMaterial material = new ArmorMaterial(defensePoints, enchantability, equipSound, repairIngredientSupplier, layers, toughness, knockbackResistance);
