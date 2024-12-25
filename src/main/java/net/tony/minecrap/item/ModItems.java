@@ -61,6 +61,26 @@ public class ModItems {
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
 
+
+    public static final Item EMERALD_HELMET = new ModArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            new Item.Settings().maxCount(1));
+
+    public static final Item EMERALD_CHESTPLATE = new ModArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            new Item.Settings().maxCount(1));
+
+    public static final Item EMERALD_LEGGINGS = new ModArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+            new Item.Settings().maxCount(1));
+
+    public static final Item EMERALD_BOOTS = new ModArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+            new Item.Settings().maxCount(1));
+
+
+
+
     //Methods
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Minecrap.MOD_ID, name), item);

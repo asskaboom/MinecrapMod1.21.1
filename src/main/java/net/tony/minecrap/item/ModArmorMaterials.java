@@ -44,12 +44,13 @@ public class ModArmorMaterials {
             // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
             5,
             // The sound played when the armor is equipped.
-            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
             // The ingredient(s) used to repair the armor.
             () -> Ingredient.ofItems(ModItems.AMOGUS_INGOT),
             0.0F,
             0.0F,
-            true);
+            true
+    );
 
 
 
@@ -69,7 +70,8 @@ public class ModArmorMaterials {
             () -> Ingredient.ofItems(Items.EMERALD),
             0.0F,
             0.0F,
-            false);
+            false
+    );
 
 
     public static RegistryEntry<ArmorMaterial> registerMaterial(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, RegistryEntry<SoundEvent> equipSound, Supplier<Ingredient> repairIngredientSupplier, float toughness, float knockbackResistance, boolean dyeable) {
