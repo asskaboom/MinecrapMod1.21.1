@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_AMOGUS);
 
                         entries.add(ModItems.AMOGUS_HAMMER);
+                        entries.add(ModItems.AMOGUS_EXCAVATOR);
 
                     }).build());
 
@@ -49,6 +50,7 @@ public class ModItemGroups {
                         //add items to group
                         entries.add(ModItems.HOOKSHOT);
                         entries.add(ModItems.LEGACY_MUSIC_DISC);
+                        entries.add(ModItems.EMERALD_PICKAXE);
                     }).build());
 
 

@@ -61,16 +61,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
 
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AMOGUS_HAMMER)
-//                .pattern("AAA")
-//                .pattern(" S ")
-//                .pattern(" S ")
-//                .input('A', ModItems.AMOGUS_INGOT)
-//                .input('S', Items.STICK)
-//                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
-//                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
-//                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-//                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AMOGUS_HAMMER)
+                .pattern("AAA")
+                .pattern("ASA")
+                .pattern(" S ")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AMOGUS_EXCAVATOR)
+                .pattern(" A ")
+                .pattern("ASA")
+                .pattern(" S ")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOOKSHOT)
@@ -97,27 +108,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
-//                .pattern("EEE")
-//                .pattern(" S ")
-//                .pattern(" S ")
-//                .input('S', Items.STICK)
-//                .input('E', Items.EMERALD)
-//                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
-//                .offerTo(exporter);
-
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
                 .pattern("EEE")
                 .pattern(" S ")
                 .pattern(" S ")
-                .input('E', Items.EMERALD)
                 .input('S', Items.STICK)
+                .input('E', Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
-                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
-                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
-
 
 
         /*

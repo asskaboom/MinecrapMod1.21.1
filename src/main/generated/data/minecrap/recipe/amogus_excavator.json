@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "AAA",
+    " A ",
     "ASA",
     " S "
   ],
   "result": {
     "count": 1,
-    "id": "minecrap:amogus_hammer"
+    "id": "minecrap:amogus_excavator"
   }
 }

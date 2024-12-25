@@ -53,6 +53,10 @@ public class ModItems {
             new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
 
+    public static final Item AMOGUS_EXCAVATOR = registerItem("amogus_excavator",
+            new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6, -2.4f))));
+
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
@@ -68,7 +72,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RAW_AMOGUS);
             entries.add(AMOGUS_INGOT);
-            entries.add(EMERALD_PICKAXE);
         });
 
 
