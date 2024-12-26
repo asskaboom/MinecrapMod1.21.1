@@ -52,12 +52,7 @@ public class ModItemGroups {
                         //add items to group
                         entries.add(ModItems.HOOKSHOT);
                         entries.add(ModItems.LEGACY_MUSIC_DISC);
-                        entries.add(ModItems.EMERALD_PICKAXE);
-
-                        entries.add(ModItems.EMERALD_HELMET);
-                        entries.add(ModItems.EMERALD_CHESTPLATE);
-                        entries.add(ModItems.EMERALD_LEGGINGS);
-                        entries.add(ModItems.EMERALD_BOOTS);
+                        entries.add(ModItems.TV);
                         entries.add(ModItems.FART_MUSIC_DISC);
                     }).build());
 
