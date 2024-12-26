@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-26T10:44:03.120673701	Minecrap/Recipes
+// 1.21.1	2024-12-26T11:21:55.556909839	Minecrap/Recipes
 b617161607a15d02e9e3fac30d64d2eeca802ad1 data/minecrap/advancement/recipes/misc/emerald_boots.json
 38730834d551fe7579b79d21e1e3e5167eccf0d3 data/minecrap/advancement/recipes/tools/emerald_axe.json
 7e0703b0d2836874abb193654b3cd4976db80755 data/minecrap/advancement/recipes/tools/emerald_hoe.json
@@ -7,7 +7,7 @@ c573186c498b3ee9683755b1fe0a05aef59dfc6b data/minecrap/recipe/amogus_leggings.js
 ac20c3c559a11bb5eae303f850c42bac7bb40a72 data/minecrap/advancement/recipes/misc/amogus_leggings.json
 ee94268d688125756856479010206fee2bc667e0 data/minecrap/recipe/emerald_sword.json
 06a673b2016a093d0c1a7dfcd6e38fbe1a71e298 data/minecrap/advancement/recipes/misc/amogus_helmet.json
-1ed4c98ac4988d37e56d05019222beff0c33febb data/minecrap/recipe/emerald_axe.json
+9f9dc5a3eacb4518c8215e8ad57b149a073065d2 data/minecrap/recipe/emerald_axe.json
 a07b0aa3e150e19253b82e717a1b584f97e629d1 data/minecrap/advancement/recipes/misc/emerald_leggings.json
 ef264a2a80863819009323b90c9cf85d83e26ea6 data/minecrap/recipe/tv.json
 f581eb4dc24af38d2371a49af22cce7f1f8d0f77 data/minecrap/recipe/amogus_chestplate.json
@@ -34,7 +34,7 @@ a8787bee5d56b982f62fd383fec3e125e8e50c38 data/minecrap/advancement/recipes/misc/
 e6dfb59694f0cf399f5df1eb1b4716324876d1f1 data/minecrap/recipe/amogus_hammer.json
 b9fa020a42cbb1b35042a675360d22340ba9b01a data/minecrap/advancement/recipes/tools/emerald_sword.json
 e7138455cf35491c445df8071ba6c1e6429c67dc data/minecrap/recipe/hook.json
-0c4df85d7c52ce4bef37f8f3c4f7078a5971e26d data/minecrap/recipe/emerald_hoe.json
+b36177afce5ed9f05e3b53324ab1a95980326a9c data/minecrap/recipe/emerald_hoe.json
 62a2783d9bfc62056dc4f224e853b3218c7c0471 data/minecrap/recipe/amogus_ingot_from_smelting_raw_amogus.json
 d206496ee5a68d45ebdfbe9c3023fd940aebd134 data/minecrap/recipe/amogus_ingot_from_blasting_raw_amogus.json
 2e2ae8ae295b524c70c0dd55a6c8cac8289808b2 data/minecrap/advancement/recipes/misc/amogus_ingot_from_blasting_amogus_ore_block.json
