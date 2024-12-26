@@ -7,6 +7,7 @@ import net.tony.minecrap.block.ModBlocks;
 import net.tony.minecrap.item.ModItemGroups;
 import net.tony.minecrap.item.ModItems;
 import net.tony.minecrap.sound.ModSounds;
+import net.tony.minecrap.util.ExcavatorUsageEvent;
 import net.tony.minecrap.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,5 +26,6 @@ public class Minecrap implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+		PlayerBlockBreakEvents.BEFORE.register(new ExcavatorUsageEvent());
 	}
 }

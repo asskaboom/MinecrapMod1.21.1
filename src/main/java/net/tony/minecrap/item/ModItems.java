@@ -11,6 +11,7 @@ import net.tony.minecrap.Minecrap;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.tony.minecrap.item.custom.ExcavatorItem;
 import net.tony.minecrap.item.custom.HammerItem;
 import net.tony.minecrap.item.custom.HookItem;
 import net.tony.minecrap.item.custom.ModArmorItem;
@@ -25,9 +26,7 @@ public class ModItems {
     public static final Item TV = registerItem("tv", new Item(new Item.Settings()));
     public static final Item LEGACY_MUSIC_DISC = registerItem("legacy_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.LEGACY_KEY).maxCount(1)));
-
-
-
+    
     public static final Item RAW_AMOGUS = registerItem("raw_amogus", new Item(new Item.Settings()));
     public static final Item AMOGUS_INGOT = registerItem("amogus_ingot", new Item(new Item.Settings()){
         @Override
@@ -54,6 +53,34 @@ public class ModItems {
     public static final Item AMOGUS_HAMMER = registerItem("amogus_hammer",
             new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
+
+    public static final Item AMOGUS_EXCAVATOR = registerItem("amogus_excavator",
+            new ExcavatorItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6, -2.4f))));
+
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
+            new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
+
+
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+        new ModArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            new Item.Settings().maxCount(1)));
+
+    public static final Item EMERALD_CHESTPLATE =registerItem("emerald_chestplate",
+            new ArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            new Item.Settings().maxCount(1)));
+
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+            new Item.Settings().maxCount(1)));
+
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(
+            ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+            new Item.Settings().maxCount(1)));
 
 
     //Methods

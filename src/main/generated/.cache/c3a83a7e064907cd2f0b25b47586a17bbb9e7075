@@ -1,11 +1,13 @@
-// 1.21.1	2024-12-23T15:19:38.629872	Minecrap/Tags for minecraft:item
-d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\enchantable\mining.json
-a6d8071dbba911e4da8f55836a550c6c0dfe8eca data\minecraft\tags\item\enchantable\foot_armor.json
-b4caa32082d796d35ca34e1a61446d11e2c9d491 data\minecraft\tags\item\enchantable\leg_armor.json
-e5e4230b3e045fa1c7feaa0c71c353954ad0607b data\minecraft\tags\item\enchantable\chest_armor.json
-d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\pickaxes.json
-a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\dyeable.json
-d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\enchantable\mining_loot.json
-a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\trimmable_armor.json
-a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\enchantable\armor.json
-6823a5a56d52209eadf16e079431dbae6ccb5e64 data\minecraft\tags\item\enchantable\head_armor.json
+// 1.21.1	2024-12-26T09:31:59.264446692	Minecrap/Tags for minecraft:item
+b4caa32082d796d35ca34e1a61446d11e2c9d491 data/minecraft/tags/item/enchantable/leg_armor.json
+6823a5a56d52209eadf16e079431dbae6ccb5e64 data/minecraft/tags/item/enchantable/head_armor.json
+d989fe595bccace5ff49df84a06287793010847f data/minecraft/tags/item/enchantable/mining.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data/minecraft/tags/item/trimmable_armor.json
+c54b3c29627d730ff21d396aeb1d73183a2d707a data/minecraft/tags/item/pickaxes.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data/minecraft/tags/item/enchantable/armor.json
+e5e4230b3e045fa1c7feaa0c71c353954ad0607b data/minecraft/tags/item/enchantable/chest_armor.json
+2c820bf4f178eaa0128a757e5d626efd81bc1368 data/minecraft/tags/item/enchantable/durability.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data/minecraft/tags/item/dyeable.json
+2c820bf4f178eaa0128a757e5d626efd81bc1368 data/minecraft/tags/item/shovels.json
+c54b3c29627d730ff21d396aeb1d73183a2d707a data/minecraft/tags/item/enchantable/mining_loot.json
+a6d8071dbba911e4da8f55836a550c6c0dfe8eca data/minecraft/tags/item/enchantable/foot_armor.json

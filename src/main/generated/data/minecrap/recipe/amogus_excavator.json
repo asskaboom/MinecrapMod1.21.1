@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecrap:amogus_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ASA",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecrap:amogus_excavator"
+  }
+}
