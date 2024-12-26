@@ -53,6 +53,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.PICKAXES).add(ModItems.EMERALD_PICKAXE);
         getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.EMERALD_PICKAXE);
 
+        getOrCreateTagBuilder(ItemTags.SHOVELS).add(ModItems.EMERALD_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.EMERALD_SHOVEL);
+
+        getOrCreateTagBuilder(ItemTags.AXES).add(ModItems.EMERALD_AXE);
+        getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.EMERALD_AXE);
+
+        getOrCreateTagBuilder(ItemTags.HOES).add(ModItems.EMERALD_HOE);
+        getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.EMERALD_HOE);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS).add(ModItems.EMERALD_SWORD);
+        getOrCreateTagBuilder(ItemTags.SWORD_ENCHANTABLE).add(ModItems.EMERALD_SWORD);
+        getOrCreateTagBuilder(ItemTags.SHARP_WEAPON_ENCHANTABLE).add(ModItems.EMERALD_SWORD);
+
         getOrCreateTagBuilder(ItemTags.DYEABLE)
                 .add(ModItems.AMOGUS_HELMET)
                 .add(ModItems.AMOGUS_CHESTPLATE)
