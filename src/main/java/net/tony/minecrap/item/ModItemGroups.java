@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_CHESTPLATE);
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
+                        entries.add(ModItems.FART_MUSIC_DISC);
                     }).build());
 
 

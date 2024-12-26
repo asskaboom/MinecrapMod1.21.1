@@ -18,5 +18,13 @@
         "stream": true
       }
     ]
+  },
+  "fart": {
+    "sounds": [
+      {
+        "name": "minecrap:fart",
+        "stream": true
+      }
+    ]
   }
 }
