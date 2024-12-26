@@ -17,6 +17,12 @@ public class ModSounds {
     public static final SoundEvent LEGACY = registerSoundEvent("legacy");
     public static final RegistryKey<JukeboxSong> LEGACY_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Minecrap.MOD_ID, "legacy"));
+
+    public static final SoundEvent FART = registerSoundEvent("fart");
+    public static final RegistryKey<JukeboxSong> FART_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Minecrap.MOD_ID, "fart"));
+
+
     //helper
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = Identifier.of(Minecrap.MOD_ID, name);

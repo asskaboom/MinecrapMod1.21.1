@@ -71,7 +71,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AMOGUS_EXCAVATOR)
+              ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AMOGUS_EXCAVATOR)
                 .pattern(" A ")
                 .pattern("ASA")
                 .pattern(" S ")
@@ -104,21 +104,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.TORCH), conditionsFromItem(Items.TORCH))
                 .offerTo(exporter);
 
-
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
-                .pattern("EEE")
-                .pattern(" S ")
-                .pattern(" S ")
-                .input('S', Items.STICK)
-                .input('E', Items.EMERALD)
-                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FART_MUSIC_DISC, 1)
+                .input(ModItems.LEGACY_MUSIC_DISC)
+                .input(Items.BROWN_DYE)
+                .criterion(hasItem(ModItems.LEGACY_MUSIC_DISC), conditionsFromItem(ModItems.LEGACY_MUSIC_DISC))
+                .criterion(hasItem(Items.BROWN_DYE), conditionsFromItem(Items.BROWN_DYE))
                 .offerTo(exporter);
 
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
-                .pattern(" E ")
-                .pattern(" S ")
-                .pattern(" S ")
+                .pattern("E")
+                .pattern("S")
+                .pattern("S")
                 .input('S', Items.STICK)
                 .input('E', Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
@@ -144,9 +141,9 @@ ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SWORD)
-                .pattern(" E ")
-                .pattern(" E ")
-                .pattern(" S ")
+                .pattern("E")
+                .pattern("E")
+                .pattern("S")
                 .input('S', Items.STICK)
                 .input('E', Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
@@ -183,12 +180,8 @@ ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter);
 
+      
         /*
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
-                .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
-                .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))
-                .offerTo(exporter);
-
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 32)
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))

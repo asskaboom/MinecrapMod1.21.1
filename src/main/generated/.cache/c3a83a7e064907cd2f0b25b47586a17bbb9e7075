@@ -16,3 +16,14 @@ f98df962cb07762985569b1d0fc0c01fe6cd3a6e data/minecraft/tags/item/enchantable/mi
 a6d8071dbba911e4da8f55836a550c6c0dfe8eca data/minecraft/tags/item/enchantable/foot_armor.json
 4a7eb93481a57624449e23876f36717df8368440 data/minecraft/tags/item/axes.json
 bec0826e07145c1c17184c9fd94fdf94d3494387 data/minecraft/tags/item/enchantable/sharp_weapon.json
+
+d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\enchantable\mining.json
+a6d8071dbba911e4da8f55836a550c6c0dfe8eca data\minecraft\tags\item\enchantable\foot_armor.json
+b4caa32082d796d35ca34e1a61446d11e2c9d491 data\minecraft\tags\item\enchantable\leg_armor.json
+e5e4230b3e045fa1c7feaa0c71c353954ad0607b data\minecraft\tags\item\enchantable\chest_armor.json
+d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\pickaxes.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\dyeable.json
+d989fe595bccace5ff49df84a06287793010847f data\minecraft\tags\item\enchantable\mining_loot.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\trimmable_armor.json
+6823a5a56d52209eadf16e079431dbae6ccb5e64 data\minecraft\tags\item\enchantable\head_armor.json
+a5254e6fbc4191579f2628e1ddd875d25c5cc3f4 data\minecraft\tags\item\enchantable\armor.json

@@ -2,7 +2,11 @@ package net.tony.minecrap;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 import net.tony.minecrap.datagen.*;
+import net.tony.minecrap.enchantment.ModEnchantments;
+
 public class MinecrapDataGenerator implements DataGeneratorEntrypoint {
 
 	@Override
@@ -14,6 +18,12 @@ public class MinecrapDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		//pack.addProvider(ModRegistryDataGenerator::new);
 
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder){
+		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 	}
 }

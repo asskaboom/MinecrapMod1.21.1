@@ -62,6 +62,7 @@ public class ModItems {
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
 
+
     public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel",
             new ShovelItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
@@ -77,6 +78,9 @@ public class ModItems {
     public static final Item EMERALD_HOE = registerItem("emerald_hoe",
             new HoeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, 0))));
+
+    public static final Item FART_MUSIC_DISC = registerItem("fart_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.FART_KEY).maxCount(1)));
 
 
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",

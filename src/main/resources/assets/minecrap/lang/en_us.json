@@ -6,6 +6,9 @@
   "item.minecrap.legacy_music_disc": "Legacy",
   "item.minecrap.legacy_music_disc.desc": "Jon Lachney - Legacy",
 
+  "item.minecrap.fart_music_disc": "Mr. Fart",
+  "item.minecrap.fart_music_disc.desc": "Mr. Farts - Reggae Farts",
+
 
 
   "item.minecrap.raw_amogus" : "Raw Amogus",
@@ -31,6 +34,18 @@
   "block.minecrap.conveyor_belt_block": "Conveyor Belt",
   "block.minecrap.amogus_ore_block" : "Amogus Ore",
   "tooltip.minecrap.amogus_ingot.tooltip" : "Sus",
+
+  "painting.minecrap.dick.title" : "Dickbutt",
+  "painting.minecrap.dick.author" : "Me",
+  "painting.minecrap.dbz.title" : "Goku and Vegete",
+  "painting.minecrap.dbz.author" : "Me",
+  "painting.minecrap.shrek.title" : "My swamp",
+  "painting.minecrap.shrek.author" : "Me",
+  "painting.minecrap.kermit.title" : "Kermmyy",
+  "painting.minecrap.kermit.author" : "Me",
+
+
+  "enchantment.minecrap.night_vision" : "Night Vision",
 
   "itemgroup.minecrap.shmoove_items" : "Shmoove Items",
   "itemgroup.minecrap.meme_items" : "Meme Items",
