@@ -11,6 +11,7 @@ import net.tony.minecrap.Minecrap;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.tony.minecrap.item.custom.ExcavatorItem;
 import net.tony.minecrap.item.custom.HammerItem;
 import net.tony.minecrap.item.custom.HookItem;
 import net.tony.minecrap.item.custom.ModArmorItem;
@@ -54,8 +55,8 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
 
     public static final Item AMOGUS_EXCAVATOR = registerItem("amogus_excavator",
-            new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6, -2.4f))));
+            new ExcavatorItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6, -2.4f))));
 
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()

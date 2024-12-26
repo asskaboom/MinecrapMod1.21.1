@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-25T21:09:10.768119799	Minecrap/Model Definitions
+// 1.21.1	2024-12-26T09:31:59.264818856	Minecrap/Model Definitions
 bf9b26819322481f4b276aaa8959d36a5495c2b4 assets/minecrap/models/block/amogus_ore_block.json
 eeddb0cf3061ef4ad07fbd39615fd1d037ac678c assets/minecrap/models/item/emerald_boots_netherite_trim.json
 5a9d4b988cd6884584462bfa5ece019dc76ced36 assets/minecrap/models/item/emerald_chestplate_emerald_trim.json
@@ -33,8 +33,8 @@ c618d58252c65997f5963433a91e78cd0a598f85 assets/minecrap/models/item/emerald_che
 8e33953bd0aec466be41bd3ae0cd28d95f7fbc85 assets/minecrap/models/item/emerald_boots_diamond_trim.json
 f6c1a3fcd1c8366b7438722111d60d5d6e1dd2ca assets/minecrap/models/item/emerald_leggings_emerald_trim.json
 9058e3f82ea0ba2860a7b782ea3a61f0b383ae3a assets/minecrap/models/item/emerald_boots_quartz_trim.json
-2a42cc194c280fadcd618c609f517cac382f2787 assets/minecrap/models/item/emerald_helmet.json
 10ccade81f5892267c87c21f11a82f5d73a981f2 assets/minecrap/models/item/emerald_boots_amethyst_trim.json
+2a42cc194c280fadcd618c609f517cac382f2787 assets/minecrap/models/item/emerald_helmet.json
 97a64c2f9e562124260607fcdc571283dc4fed2f assets/minecrap/models/item/emerald_helmet_gold_trim.json
 ac219e1c0edf8ecdb7a9f248355d24089d605c2a assets/minecrap/models/item/amogus_hammer.json
 54a12a455d256e2fa889be9e609f03bbcf402040 assets/minecrap/models/item/emerald_helmet_netherite_trim.json
