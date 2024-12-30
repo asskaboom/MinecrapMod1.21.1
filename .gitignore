@@ -5,6 +5,7 @@ build/
 out/
 classes/
 logs/
+src/main/generated/.cache/
 # eclipse
 
 *.launch
