@@ -31,6 +31,9 @@
   "item.minecrap.emerald_leggings"  : "Emerald Leggings",
   "item.minecrap.emerald_boots"  : "Emerald Boots",
 
+  "item.minecrap.dough_scepter"  : "Dough Scepter",
+  "item.minecrap.crown"  : "Crown",
+
   "block.minecrap.conveyor_belt_block": "Conveyor Belt",
   "block.minecrap.amogus_ore_block" : "Amogus Ore",
   "tooltip.minecrap.amogus_ingot.tooltip" : "Sus",

@@ -102,6 +102,10 @@ public class ModItems {
             ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
             new Item.Settings().maxCount(1)));
 
+    public static final Item DOUGH_SCEPTER = registerItem("dough_scepter", new Item(new Item.Settings()));
+
+    public static final Item CROWN = registerItem("crown",
+            new ModArmorItem(ModArmorMaterials.CROWN, ArmorItem.Type.HELMET, new Item.Settings().maxCount(1)));
 
     //Methods
     private static Item registerItem(String name, Item item){

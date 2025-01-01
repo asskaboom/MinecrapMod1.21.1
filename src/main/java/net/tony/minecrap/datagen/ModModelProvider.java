@@ -20,7 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMOGUS_ORE_BLOCK);
 
     }
-
+//    get minecraft textures ez
+//    https://mcasset.cloud/1.21.1/assets/minecraft/textures/item
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TV, Models.GENERATED);
@@ -43,6 +44,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.LEGACY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FART_MUSIC_DISC, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.DOUGH_SCEPTER, Models.HANDHELD_ROD);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CROWN);
 
     }
 }

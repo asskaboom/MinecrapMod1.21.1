@@ -180,7 +180,27 @@ ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter);
 
-      
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DOUGH_SCEPTER)
+                .pattern("SB")
+                .pattern("SB")
+                .pattern("S ")
+                .input('B', Items.BREAD)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.BREAD), conditionsFromItem(Items.BREAD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CROWN)
+                .pattern("DGD")
+                .pattern("G G")
+                .pattern("   ")
+                .input('D', Items.DIAMOND)
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(exporter);
+
+
         /*
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 32)
                 .input(ModBlocks.MAGIC_BLOCK)
