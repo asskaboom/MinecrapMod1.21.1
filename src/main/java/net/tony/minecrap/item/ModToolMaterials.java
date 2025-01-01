@@ -11,10 +11,10 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    AMOGUS_INGOT(ModTags.Blocks.INCORRECT_FOR_AMOGUS_INGOT_TOOL, 1200, 5.0F, 4.0F, 22, () -> Ingredient.ofItems(ModItems.AMOGUS_INGOT)),
+    AMOGUS_INGOT(ModTags.Blocks.INCORRECT_FOR_AMOGUS_INGOT_TOOL, 1200, 8.0F, 0, 22, () -> Ingredient.ofItems(ModItems.AMOGUS_INGOT)),
 
-    EMERALD(ModTags.Blocks.NEEDS_FOR_AMOGUS_INGOT_TOOL, 500, 4, 5, 10,
-                    () -> Ingredient.ofItems(Items.EMERALD)); // Use vanilla emerald
+    EMERALD(ModTags.Blocks.NEEDS_FOR_AMOGUS_INGOT_TOOL, 800, 7.0F, 2.5F, 12,
+                    () -> Ingredient.ofItems(Items.EMERALD));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

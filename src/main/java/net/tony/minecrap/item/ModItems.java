@@ -52,32 +52,31 @@ public class ModItems {
 
     public static final Item AMOGUS_HAMMER = registerItem("amogus_hammer",
             new HammerItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 7, -3.4f))));
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6.0F, -3.2f))));
 
     public static final Item AMOGUS_EXCAVATOR = registerItem("amogus_excavator",
             new ExcavatorItem(ModToolMaterials.AMOGUS_INGOT, new Item.Settings()
-                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 6, -2.4f))));
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AMOGUS_INGOT, 4.0F, -3.0f))));
 
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
-
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 1, -2.8F))));
 
     public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel",
             new ShovelItem(ModToolMaterials.EMERALD, new Item.Settings()
-                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, -2))));
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.EMERALD, 1.5F, -3.0F))));
 
     public static final Item EMERALD_AXE = registerItem("emerald_axe",
             new AxeItem(ModToolMaterials.EMERALD, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 5, -2))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 5.5F, -3.0F))));
 
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 4, 0))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 3, -2.4F))));
 
     public static final Item EMERALD_HOE = registerItem("emerald_hoe",
             new HoeItem(ModToolMaterials.EMERALD, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0, 0))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, -1, -1.0F))));
 
     public static final Item FART_MUSIC_DISC = registerItem("fart_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.FART_KEY).maxCount(1)));
