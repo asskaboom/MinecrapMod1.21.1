@@ -5,6 +5,12 @@
       "minecrap:hook_use"
     ]
   },
+  "item.dough_scepter.use": {
+    "subtitle": "sounds.minecrap.dough_scepter_use",
+    "sounds": [
+      "minecrap:dough_scepter_use"
+    ]
+  },
   "villager_trade":{
    "subtitle" : "sounds.minecrap.villager_trade",
    "sounds": [

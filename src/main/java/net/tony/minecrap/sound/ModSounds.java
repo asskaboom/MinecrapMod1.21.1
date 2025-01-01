@@ -22,6 +22,8 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> FART_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Minecrap.MOD_ID, "fart"));
 
+    public static final SoundEvent DOUGH_SCEPTER_USE = registerSoundEvent("item.dough_scepter.use");
+
 
     //helper
     private static SoundEvent registerSoundEvent(String name){
