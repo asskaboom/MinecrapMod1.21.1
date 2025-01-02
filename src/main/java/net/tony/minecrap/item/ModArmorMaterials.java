@@ -72,6 +72,22 @@ public class ModArmorMaterials {
             false
     );
 
+    public static final RegistryEntry<ArmorMaterial> CROWN = registerMaterial_no_overlay("crown",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 3
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            20,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.GOLD_INGOT),
+            0.0F,
+            0.0F,
+            false
+    );
+
 
     public static RegistryEntry<ArmorMaterial> registerMaterial(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, RegistryEntry<SoundEvent> equipSound, Supplier<Ingredient> repairIngredientSupplier, float toughness, float knockbackResistance, boolean dyeable) {
         // Get the supported layers for the armor material

@@ -1,8 +1,10 @@
 package net.tony.minecrap;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.TypedActionResult;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.tony.minecrap.block.ModBlocks;
 import net.tony.minecrap.enchantment.ModEnchantmentEffects;
 import net.tony.minecrap.item.ModItemGroups;
@@ -29,5 +31,17 @@ public class Minecrap implements ModInitializer {
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new ExcavatorUsageEvent());
+
+		UseItemCallback.EVENT.register((player, world, hand) -> {
+			if (world.isClient()) {
+				if (player.getStackInHand(hand).isOf(ModItems.DOUGH_SCEPTER)) {
+					player.playSound(ModSounds.DOUGH_SCEPTER_USE, 1.0F, 1.0F);
+					return TypedActionResult.success(player.getStackInHand(hand));
+				}
+			}
+			return TypedActionResult.pass(player.getStackInHand(hand));
+		});
+
+
 	}
 }

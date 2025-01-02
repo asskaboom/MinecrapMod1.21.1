@@ -24,6 +24,8 @@ public class ModArmorItem extends ArmorItem {
                             List.of(
                                     new StatusEffectInstance(StatusEffects.HASTE, 300, 0, false, false)
                             ))
+                    .put(ModArmorMaterials.CROWN,
+                            List.of())
                     .build();
 
 

@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
-    "E": {
-      "item": "minecraft:emerald"
+    "B": {
+      "item": "minecraft:bread"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "EEE",
-    " S ",
-    " S "
+    "SB",
+    "SB",
+    "S "
   ],
   "result": {
     "count": 1,
-    "id": "minecrap:emerald_pickaxe"
+    "id": "minecrap:dough_scepter"
   }
 }

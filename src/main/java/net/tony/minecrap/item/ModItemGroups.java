@@ -54,6 +54,10 @@ public class ModItemGroups {
                         entries.add(ModItems.LEGACY_MUSIC_DISC);
                         entries.add(ModItems.TV);
                         entries.add(ModItems.FART_MUSIC_DISC);
+
+                        entries.add(ModItems.DOUGH_SCEPTER);
+                        entries.add(ModItems.CROWN);
+
                     }).build());
 
     public static final ItemGroup EMERALD_GROUP = Registry.register(Registries.ITEM_GROUP,
