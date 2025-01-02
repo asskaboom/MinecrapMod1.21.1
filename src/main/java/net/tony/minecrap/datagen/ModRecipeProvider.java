@@ -104,11 +104,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.TORCH), conditionsFromItem(Items.TORCH))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FART_MUSIC_DISC, 1)
-                .input(ModItems.LEGACY_MUSIC_DISC)
-                .input(Items.BROWN_DYE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEGACY_MUSIC_DISC)
+                .pattern(" S ")
+                .pattern("SAS")
+                .pattern(" S ")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .input('S', Items.STONE)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
+                .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FART_MUSIC_DISC, 1)
+                .pattern("SSS")
+                .pattern("SDS")
+                .pattern("SSS")
+                .input('D', ModItems.LEGACY_MUSIC_DISC)
+                .input('S', ModItems.SHIT)
                 .criterion(hasItem(ModItems.LEGACY_MUSIC_DISC), conditionsFromItem(ModItems.LEGACY_MUSIC_DISC))
-                .criterion(hasItem(Items.BROWN_DYE), conditionsFromItem(Items.BROWN_DYE))
+                .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
                 .offerTo(exporter);
 
 

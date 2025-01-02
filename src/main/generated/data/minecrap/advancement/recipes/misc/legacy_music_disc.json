@@ -1,11 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_emerald": {
+    "has_amogus_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:emerald"
+            "items": "minecrap:amogus_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone"
           }
         ]
       },
@@ -13,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecrap:emerald_pickaxe"
+        "recipe": "minecrap:legacy_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_emerald"
+      "has_amogus_ingot",
+      "has_stone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecrap:emerald_pickaxe"
+      "minecrap:legacy_music_disc"
     ]
   }
 }

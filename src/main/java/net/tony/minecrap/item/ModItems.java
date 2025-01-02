@@ -24,6 +24,7 @@ public class ModItems {
     //Items
     //public static final Item CONVEYOR_BELT = registerItem( "conveyor_belt_block.json");
     public static final Item TV = registerItem("tv", new Item(new Item.Settings()));
+    public static final Item SHIT = registerItem("shit", new Item(new Item.Settings()));
     public static final Item LEGACY_MUSIC_DISC = registerItem("legacy_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.LEGACY_KEY).maxCount(1)));
     

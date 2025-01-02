@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "misc",
   "key": {
-    "E": {
-      "item": "minecraft:emerald"
+    "A": {
+      "item": "minecrap:amogus_ingot"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [
-    "EEE",
     " S ",
+    "SAS",
     " S "
   ],
   "result": {
     "count": 1,
-    "id": "minecrap:emerald_pickaxe"
+    "id": "minecrap:legacy_music_disc"
   }
 }

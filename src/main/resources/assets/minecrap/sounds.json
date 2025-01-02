@@ -5,6 +5,12 @@
       "minecrap:hook_use"
     ]
   },
+  "shart": {
+    "subtitle": "sounds.minecrap.shart",
+    "sounds": [
+      "minecrap:shart"
+    ]
+  },
   "villager_trade":{
    "subtitle" : "sounds.minecrap.villager_trade",
    "sounds": [

@@ -6,6 +6,8 @@ import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import net.tony.minecrap.datagen.*;
 import net.tony.minecrap.enchantment.ModEnchantments;
+import net.tony.minecrap.world.ModConfiguredFeatures;
+import net.tony.minecrap.world.ModPlacedFeatures;
 
 public class MinecrapDataGenerator implements DataGeneratorEntrypoint {
 
@@ -18,12 +20,15 @@ public class MinecrapDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
-		//pack.addProvider(ModRegistryDataGenerator::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
 
 	}
 
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder){
 		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
+
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }
