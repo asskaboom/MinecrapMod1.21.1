@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecrap:amogus_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AIA",
+    "AAA"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecrap:conveyor_belt_block"
+  }
+}

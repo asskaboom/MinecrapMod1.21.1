@@ -41,6 +41,10 @@ public class ModItemGroups {
                         entries.add(ModItems.AMOGUS_HAMMER);
                         entries.add(ModItems.AMOGUS_EXCAVATOR);
 
+                        entries.add(ModItems.AMOGUS_SPAWN_EGG);
+                        entries.add(ModItems.SPACE_PART);
+                        entries.add(ModItems.WINGS);
+
 
                     }).build());
 

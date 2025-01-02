@@ -7,8 +7,11 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
 import net.tony.minecrap.block.ModBlocks;
 import net.tony.minecrap.item.ModItems;
+
+import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -28,6 +31,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TV, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOOKSHOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHIT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SPACE_PART, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINGS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.AMOGUS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_AMOGUS, Models.GENERATED);
@@ -49,6 +55,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.DOUGH_SCEPTER, Models.HANDHELD_ROD);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.CROWN);
+
+        itemModelGenerator.register(ModItems.AMOGUS_SPAWN_EGG,
+                new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
 
     }
 }

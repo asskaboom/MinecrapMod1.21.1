@@ -26,8 +26,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
         List<ItemConvertible> AMOGUS_INGOT_SMELTABLES = List.of(ModItems.RAW_AMOGUS, ModBlocks.AMOGUS_ORE_BLOCK);
 
-        offerSmelting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 200, "pink_garnet");
-        offerBlasting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 100, "pink_garnet");
+        offerSmelting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 200, "amogus");
+        offerBlasting(exporter, AMOGUS_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.AMOGUS_INGOT, 0.25f, 100, "amogus");
+
+        List<ItemConvertible> SPACE_PART_SMELTABLE = List.of(ModItems.SPACE_PART);
+
+        offerSmelting(exporter, SPACE_PART_SMELTABLE, RecipeCategory.MISC, Items.IRON_INGOT, 0.25f, 200, "amogus");
+        offerBlasting(exporter, SPACE_PART_SMELTABLE, RecipeCategory.MISC, Items.IRON_INGOT, 0.25f, 100, "amogus");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_HELMET)
                 .pattern("AAA")
@@ -87,11 +92,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("AS ")
                 .pattern("  H")
                 .input('A', ModItems.AMOGUS_INGOT)
-                .input('S', Items.STRING)
+                .input('S', ModItems.SPACE_PART)
                 .input('H', Items.STICK)
                 .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
-                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(ModItems.SPACE_PART), conditionsFromItem(ModItems.SPACE_PART))
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CONVEYOR_BELT_BLOCK, 9)
+                .pattern("AAA")
+                .pattern("AIA")
+                .pattern("AAA")
+                .input('A', ModItems.AMOGUS_INGOT)
+                .input('I', Items.IRON_BLOCK)
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .criterion(hasItem(Items.IRON_BLOCK), conditionsFromItem(Items.IRON_BLOCK))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TV)
@@ -125,6 +140,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_SPAWN_EGG, 2)
+                .pattern("STS")
+                .pattern("IFI")
+                .pattern("CBC")
+                .input('F', ModItems.FART_MUSIC_DISC)
+                .input('S', ModItems.SHIT)
+                .input('I', ModItems.AMOGUS_INGOT)
+                .input('C', ModBlocks.CONVEYOR_BELT_BLOCK)
+                .input('B', Items.DIAMOND_BLOCK)
+                .input('T', ModItems.TV)
+                .criterion(hasItem(ModItems.FART_MUSIC_DISC), conditionsFromItem(ModItems.FART_MUSIC_DISC))
+                .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
+                .criterion(hasItem(ModItems.AMOGUS_INGOT), conditionsFromItem(ModItems.AMOGUS_INGOT))
+                .criterion(hasItem(ModBlocks.CONVEYOR_BELT_BLOCK), conditionsFromItem(ModBlocks.CONVEYOR_BELT_BLOCK))
+                .criterion(hasItem(Items.DIAMOND_BLOCK), conditionsFromItem(Items.DIAMOND_BLOCK))
+                .criterion(hasItem(ModItems.TV), conditionsFromItem(ModItems.TV))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WINGS, 2)
+                .pattern("PPP")
+                .pattern("PEP")
+                .pattern("PPP")
+                .input('P', ModItems.SPACE_PART)
+                .input('E', Items.ELYTRA)
+                .criterion(hasItem(ModItems.SPACE_PART), conditionsFromItem(ModItems.SPACE_PART))
+                .criterion(hasItem(Items.ELYTRA), conditionsFromItem(Items.ELYTRA))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.ELYTRA, 1)
+                .input(ModItems.WINGS)
+                .criterion(hasItem(ModItems.WINGS), conditionsFromItem(ModItems.WINGS))
+                .offerTo(exporter);
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
                 .pattern("E")
@@ -144,7 +192,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter);
 
-ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
                 .pattern("EE")
                 .pattern(" S")
                 .pattern(" S")

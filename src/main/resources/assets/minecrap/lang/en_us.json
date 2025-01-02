@@ -2,8 +2,18 @@
   "item.minecrap.tv": "Television",
   "item.minecrap.shit": "Poopoo",
   "item.minecrap.hook": "Hookshot",
+
   "sounds.minecrap.hook_use" : "Hookshot Sound",
   "sounds.minecrap.shart" : "Big Fart",
+
+
+  "sounds.minecrap.krab" : "Amogus death",
+  "sounds.minecrap.hurt" : "Amogus hurt",
+  "sounds.minecrap.bing" : "Amogus Noise",
+  "sounds.minecrap.amogus_sus" : "Amogus Noise",
+  "sounds.minecrap.bravo" : "Amogus Noise",
+  "sounds.minecrap.b2tb" : "Amogus Noise",
+  "sounds.minecrap.good_one" : "Amogus Noise",
 
   "item.minecrap.legacy_music_disc": "Legacy",
   "item.minecrap.legacy_music_disc.desc": "Jon Lachney - Legacy",
@@ -22,6 +32,11 @@
   "item.minecrap.amogus_hammer"  : "Amogus Hammer",
   "item.minecrap.amogus_excavator"  : "Amogus Excavator",
 
+  "item.minecrap.space_part" : "Space Component",
+  "item.minecrap.wings" : "Set of wings",
+
+  "item.minecrap.amogus_spawn_egg": "Amogus Spawn Egg",
+  
   "item.minecrap.emerald_pickaxe"  : "Emerald Pickaxe",
   "item.minecrap.emerald_shovel"  : "Emerald Shovel",
   "item.minecrap.emerald_sword"  : "Emerald Sword",
@@ -67,5 +82,7 @@
   "itemgroup.minecrap.shmoove_items" : "Shmoove Items",
   "itemgroup.minecrap.meme_items" : "Meme Items",
   "itemgroup.minecrap.amogus_items" : "Amogus Items",
-  "itemgroup.minecrap.emerald_items" : "Emerald Items"
+  "itemgroup.minecrap.emerald_items" : "Emerald Items",
+
+  "entity.minecrap.amogus": "Amogus"
 }

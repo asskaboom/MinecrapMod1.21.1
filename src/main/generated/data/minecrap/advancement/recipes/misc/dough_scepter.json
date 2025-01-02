@@ -1,37 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-<<<<<<<< HEAD:src/main/generated/data/minecrap/advancement/recipes/misc/dough_scepter.json
     "has_bread": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:bread"
-========
-    "has_amogus_ingot": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecrap:amogus_ingot"
->>>>>>>> origin/master:src/main/generated/data/minecrap/advancement/recipes/misc/legacy_music_disc.json
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-<<<<<<<< HEAD:src/main/generated/data/minecrap/advancement/recipes/misc/dough_scepter.json
     "has_stick": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:stick"
-========
-    "has_stone": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:stone"
->>>>>>>> origin/master:src/main/generated/data/minecrap/advancement/recipes/misc/legacy_music_disc.json
           }
         ]
       },
@@ -39,11 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-<<<<<<<< HEAD:src/main/generated/data/minecrap/advancement/recipes/misc/dough_scepter.json
         "recipe": "minecrap:dough_scepter"
-========
-        "recipe": "minecrap:legacy_music_disc"
->>>>>>>> origin/master:src/main/generated/data/minecrap/advancement/recipes/misc/legacy_music_disc.json
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -51,22 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-<<<<<<<< HEAD:src/main/generated/data/minecrap/advancement/recipes/misc/dough_scepter.json
       "has_bread",
       "has_stick"
-========
-      "has_amogus_ingot",
-      "has_stone"
->>>>>>>> origin/master:src/main/generated/data/minecrap/advancement/recipes/misc/legacy_music_disc.json
     ]
   ],
   "rewards": {
     "recipes": [
-<<<<<<<< HEAD:src/main/generated/data/minecrap/advancement/recipes/misc/dough_scepter.json
       "minecrap:dough_scepter"
-========
-      "minecrap:legacy_music_disc"
->>>>>>>> origin/master:src/main/generated/data/minecrap/advancement/recipes/misc/legacy_music_disc.json
     ]
   }
 }

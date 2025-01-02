@@ -3,6 +3,7 @@ package net.tony.minecrap.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.tony.minecrap.block.ModBlocks;
+import net.tony.minecrap.entity.ModEntities;
 import net.tony.minecrap.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
@@ -30,6 +31,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.AMOGUS_ORE_BLOCK, oreDrops(ModBlocks.AMOGUS_ORE_BLOCK, ModItems.RAW_AMOGUS));
         addDrop(ModBlocks.AMOGUS_DEEPSLATE_ORE_BLOCK, multipleOreDrops(ModBlocks.AMOGUS_DEEPSLATE_ORE_BLOCK, ModItems.RAW_AMOGUS, 2, 5));
+
+
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

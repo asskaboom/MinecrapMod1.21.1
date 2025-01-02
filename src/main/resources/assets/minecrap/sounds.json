@@ -17,6 +17,49 @@
       "minecrap:shart"
     ]
   },
+  "bing": {
+    "subtitle": "sounds.minecrap.bing",
+    "sounds": [
+      "minecrap:bing"
+    ]
+  },
+  "krab": {
+    "subtitle": "sounds.minecrap.bust",
+    "sounds": [
+      "minecrap:bust"
+    ]
+  },
+  "amogus_sus": {
+    "subtitle": "sounds.minecrap.amogus_sus",
+    "sounds": [
+      "minecrap:amogus_sus"
+    ]
+  },
+  "hurt": {
+    "subtitle": "sounds.minecrap.hurt",
+    "sounds": [
+      "minecrap:hurt"
+    ]
+  },
+  "bravo": {
+    "subtitle": "sounds.minecrap.bravo",
+    "sounds": [
+      "minecrap:bravo"
+    ]
+  },
+  "b2tb": {
+    "subtitle": "sounds.minecrap.b2tb",
+    "sounds": [
+      "minecrap:b2tb"
+    ]
+  },
+  "good_one": {
+    "subtitle": "sounds.minecrap.good_one",
+    "sounds": [
+      "minecrap:good_one"
+    ]
+  },
+
   "villager_trade":{
    "subtitle" : "sounds.minecrap.villager_trade",
    "sounds": [

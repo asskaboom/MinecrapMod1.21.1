@@ -6,6 +6,7 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
+import net.tony.minecrap.entity.ModEntities;
 import net.tony.minecrap.item.ModArmorMaterials;
 import net.tony.minecrap.Minecrap;
 import net.minecraft.registry.Registries;
@@ -37,6 +38,9 @@ public class ModItems {
         }
     });
     public static final Item HOOKSHOT = registerItem("hook", new HookItem(new Item.Settings()));
+
+    public static final Item SPACE_PART = registerItem("space_part", new Item(new Item.Settings()));
+    public static final Item WINGS = registerItem("wings", new Item(new Item.Settings()));
 
     public static final Item AMOGUS_HELMET = registerItem("amogus_helmet",
             new ModArmorItem(ModArmorMaterials.AMOGUS_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
@@ -106,6 +110,10 @@ public class ModItems {
 
     public static final Item CROWN = registerItem("crown",
             new ModArmorItem(ModArmorMaterials.CROWN, ArmorItem.Type.HELMET, new Item.Settings().maxCount(1)));
+
+
+    public static final Item AMOGUS_SPAWN_EGG = registerItem("amogus_spawn_egg",
+            new SpawnEggItem(ModEntities.AMOGUS, 0xc51111, 0x96cadd, new Item.Settings()));
 
     //Methods
     private static Item registerItem(String name, Item item){

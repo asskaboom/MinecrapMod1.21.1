@@ -23,7 +23,7 @@ public class ModEnchantments {
 
         register(registerable, NIGHT_VISION, Enchantment.builder(Enchantment.definition(
                 items.getOrThrow(ItemTags.HEAD_ARMOR),
-                1, //proba in table
+                1, //probability in table
                 1,
                 Enchantment.leveledCost(2,1),
                 Enchantment.leveledCost(5,1),

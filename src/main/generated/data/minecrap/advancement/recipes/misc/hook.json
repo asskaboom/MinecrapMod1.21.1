@@ -11,21 +11,21 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_stick": {
+    "has_space_part": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": "minecrap:space_part"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_string": {
+    "has_stick": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -42,7 +42,7 @@
     [
       "has_the_recipe",
       "has_amogus_ingot",
-      "has_string",
+      "has_space_part",
       "has_stick"
     ]
   ],

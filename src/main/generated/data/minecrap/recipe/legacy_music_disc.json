@@ -2,28 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-<<<<<<<< HEAD:src/main/generated/data/minecrap/recipe/dough_scepter.json
-    "B": {
-      "item": "minecraft:bread"
-========
     "A": {
       "item": "minecrap:amogus_ingot"
->>>>>>>> origin/master:src/main/generated/data/minecrap/recipe/legacy_music_disc.json
     },
     "S": {
       "item": "minecraft:stone"
     }
   },
   "pattern": [
-<<<<<<<< HEAD:src/main/generated/data/minecrap/recipe/dough_scepter.json
-    "SB",
-    "SB",
-    "S "
-  ],
-  "result": {
-    "count": 1,
-    "id": "minecrap:dough_scepter"
-========
     " S ",
     "SAS",
     " S "
@@ -31,6 +17,5 @@
   "result": {
     "count": 1,
     "id": "minecrap:legacy_music_disc"
->>>>>>>> origin/master:src/main/generated/data/minecrap/recipe/legacy_music_disc.json
   }
 }
