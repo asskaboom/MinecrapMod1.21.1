@@ -19,9 +19,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CONVEYOR_BELT_BLOCK)
                 .add(ModBlocks.AMOGUS_ORE_BLOCK)
+                .add(ModBlocks.AMOGUS_DEEPSLATE_ORE_BLOCK)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.AMOGUS_ORE_BLOCK);
+                .add(ModBlocks.AMOGUS_ORE_BLOCK)
+                .add(ModBlocks.AMOGUS_DEEPSLATE_ORE_BLOCK)
+        ;
     }
 }

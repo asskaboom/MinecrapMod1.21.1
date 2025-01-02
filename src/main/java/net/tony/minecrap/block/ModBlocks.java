@@ -2,9 +2,11 @@ package net.tony.minecrap.block;
 
 import com.mojang.serialization.MapCodec;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.WallMountedBlock;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tony.minecrap.Minecrap;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -26,9 +28,15 @@ public class ModBlocks {
                     .requiresTool()));
 
     public static final Block AMOGUS_ORE_BLOCK = registerBlock("amogus_ore_block",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create()
+                    .strength(3f)
                     .requiresTool()));
+
+    public static final Block AMOGUS_DEEPSLATE_ORE_BLOCK = registerBlock("amogus_deepslate_ore_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
 /*
     public static final Block TV_BLOCK = registerBlock("tv_block",
             new WallMountedBlock(AbstractBlock.Settings.create()

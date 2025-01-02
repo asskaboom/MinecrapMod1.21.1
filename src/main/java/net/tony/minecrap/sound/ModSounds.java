@@ -12,6 +12,7 @@ import net.tony.minecrap.Minecrap;
 public class ModSounds {
 
     public static final SoundEvent HOOK_USE = registerSoundEvent("hook_use");
+    public static final SoundEvent SHART = registerSoundEvent("shart");
     //public static final SoundEvent VILLAGER_TRADE = registerSoundEvent("villager_trade");
     //public static final SoundEvent AMOGUS_BLOCK_PLACE = registerSoundEvent("amogus_place");
     public static final SoundEvent LEGACY = registerSoundEvent("legacy");

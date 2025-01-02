@@ -1,7 +1,9 @@
 {
   "item.minecrap.tv": "Television",
+  "item.minecrap.shit": "Poopoo",
   "item.minecrap.hook": "Hookshot",
   "sounds.minecrap.hook_use" : "Hookshot Sound",
+  "sounds.minecrap.shart" : "Big Fart",
 
   "item.minecrap.legacy_music_disc": "Legacy",
   "item.minecrap.legacy_music_disc.desc": "Jon Lachney - Legacy",
@@ -34,9 +36,14 @@
   "item.minecrap.dough_scepter"  : "Dough Scepter",
   "item.minecrap.crown"  : "Crown",
 
+  "item.minecraft.potion.effect.sus_potion": "Milk? Potion",
+  "item.minecraft.splash_potion.effect.sus_potion": "Milk? Splash Potion",
+  "item.minecraft.lingering_potion.effect.sus_potion": "Milk? Lingering Potion",
+
   "block.minecrap.conveyor_belt_block": "Conveyor Belt",
   "block.minecrap.amogus_ore_block" : "Amogus Ore",
-  "tooltip.minecrap.amogus_ingot.tooltip" : "Sus",
+  "block.minecrap.amogus_deepslate_ore_block" : "Amogus Deepslate Ore",
+  "tooltip.minecrap.amogus_ingot.tooltip" : "Susingot",
 
   "painting.minecrap.dick.title" : "Dickbutt",
   "painting.minecrap.dick.author" : "Me",
@@ -53,11 +60,12 @@
   "painting.minecrap.greta.title" : "Greta",
   "painting.minecrap.greta.author" : "papa",
 
+  "effect.minecrap.diarrhea" : "Poopy Pants",
 
   "enchantment.minecrap.night_vision" : "Night Vision",
 
   "itemgroup.minecrap.shmoove_items" : "Shmoove Items",
   "itemgroup.minecrap.meme_items" : "Meme Items",
-  "itemgroup.minecrap.amogus_items" : "Amogus Items"
+  "itemgroup.minecrap.amogus_items" : "Amogus Items",
   "itemgroup.minecrap.emerald_items" : "Emerald Items"
 }

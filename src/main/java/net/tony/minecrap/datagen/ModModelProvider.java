@@ -18,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMOGUS_ORE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMOGUS_DEEPSLATE_ORE_BLOCK);
 
     }
 //    get minecraft textures ez
@@ -26,6 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TV, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOOKSHOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHIT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.AMOGUS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_AMOGUS, Models.GENERATED);

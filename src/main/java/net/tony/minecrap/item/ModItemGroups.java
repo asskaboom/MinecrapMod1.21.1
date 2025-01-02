@@ -51,6 +51,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         //add items to group
                         entries.add(ModItems.HOOKSHOT);
+                        entries.add(ModItems.SHIT);
                         entries.add(ModItems.LEGACY_MUSIC_DISC);
                         entries.add(ModItems.TV);
                         entries.add(ModItems.FART_MUSIC_DISC);

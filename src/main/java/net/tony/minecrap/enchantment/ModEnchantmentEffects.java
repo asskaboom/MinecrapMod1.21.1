@@ -9,15 +9,16 @@ import net.tony.minecrap.Minecrap;
 import net.tony.minecrap.enchantment.custom.NightVisionEnchantmentEffect;
 
 public class ModEnchantmentEffects {
-
     public static final MapCodec<? extends EnchantmentEntityEffect> NIGHT_VISION =
-        registerEntityEffect("night_vision", NightVisionEnchantmentEffect.CODEC);
+            registerEntityEffect("night_vision", NightVisionEnchantmentEffect.CODEC);
 
-    private static MapCodec<? extends EnchantmentEntityEffect> registerEntityEffect(String name, MapCodec<? extends EnchantmentEntityEffect> codec){
+
+    private static MapCodec<? extends EnchantmentEntityEffect> registerEntityEffect(String name,
+                                                                                    MapCodec<? extends EnchantmentEntityEffect> codec) {
         return Registry.register(Registries.ENCHANTMENT_ENTITY_EFFECT_TYPE, Identifier.of(Minecrap.MOD_ID, name), codec);
     }
 
-    public static void registerEnchantmentEffect(){
-        Minecrap.LOGGER.info("Registering Nod Enchantment Effect for" + Minecrap.MOD_ID);
+    public static void registerEnchantmentEffects() {
+        Minecrap.LOGGER.info("Registering Mod Enchantment Effects for " + Minecrap.MOD_ID);
     }
 }
