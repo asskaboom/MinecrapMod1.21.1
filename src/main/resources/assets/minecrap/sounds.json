@@ -11,6 +11,12 @@
       "minecrap:dough_scepter_use"
     ]
   },
+  "licilina": {
+    "subtitle": "sounds.minecrap.licilina",
+    "sounds": [
+      "minecrap:licilina"
+    ]
+  },
   "shart": {
     "subtitle": "sounds.minecrap.shart",
     "sounds": [

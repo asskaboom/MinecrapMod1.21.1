@@ -9,6 +9,9 @@ import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.sound.SoundCategory;
 import net.tony.minecrap.block.ModBlocks;
 import net.tony.minecrap.effect.ModEffects;
 import net.tony.minecrap.enchantment.ModEnchantmentEffects;
@@ -50,11 +53,9 @@ public class Minecrap implements ModInitializer {
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new ExcavatorUsageEvent());
 
-
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, ModItems.AMOGUS_INGOT, ModPotions.SUS_POTION);
 		});
-
 
 		UseItemCallback.EVENT.register((player, world, hand) -> {
 			if (world.isClient()) {
@@ -64,12 +65,14 @@ public class Minecrap implements ModInitializer {
 					player.playSound(ModSounds.DOUGH_SCEPTER_USE, dough_random + 0.5F, dough_random);
 					return TypedActionResult.success(player.getStackInHand(hand));
 				}
+				if (player.getStackInHand(hand).isOf(Items.DRAGON_HEAD)) {
+					player.playSound(ModSounds.DRAGON_HEAD_SOUND, 1.0F, 1.0F);
+					return TypedActionResult.success(player.getStackInHand(hand));
+				}
 			}
 			return TypedActionResult.pass(player.getStackInHand(hand));
 		});
 
-
 		FabricDefaultAttributeRegistry.register(ModEntities.AMOGUS, AmogusEntity.createAttributes());
-
 	}
 }

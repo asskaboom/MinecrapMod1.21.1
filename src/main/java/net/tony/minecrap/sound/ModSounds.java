@@ -24,6 +24,7 @@ public class ModSounds {
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Minecrap.MOD_ID, "fart"));
 
     public static final SoundEvent DOUGH_SCEPTER_USE = registerSoundEvent("item.dough_scepter.use");
+    public static final SoundEvent DRAGON_HEAD_SOUND = registerSoundEvent("licilina");
 
     public static final SoundEvent AMOGUS_AMBIENT_1 = registerSoundEvent("amogus_sus");
     public static final SoundEvent AMOGUS_AMBIENT_2 = registerSoundEvent("bing");
@@ -34,14 +35,12 @@ public class ModSounds {
     public static final SoundEvent AMOGUS_HURT = registerSoundEvent("hurt");
 
 
-
-    //helper
-    private static SoundEvent registerSoundEvent(String name){
+    private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Minecrap.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
-    public static  void  registerSounds(){
+    public static void registerSounds() {
         Minecrap.LOGGER.info("Registering Mod Sounds for " + Minecrap.MOD_ID);
     }
 
