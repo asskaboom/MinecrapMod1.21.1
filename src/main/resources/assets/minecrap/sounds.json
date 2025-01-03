@@ -29,6 +29,12 @@
       "minecrap:bing"
     ]
   },
+  "bong": {
+    "subtitle": "sounds.minecrap.bong",
+    "sounds": [
+      "minecrap:bong"
+    ]
+  },
   "krab": {
     "subtitle": "sounds.minecrap.bust",
     "sounds": [
@@ -47,25 +53,12 @@
       "minecrap:hurt"
     ]
   },
-  "bravo": {
-    "subtitle": "sounds.minecrap.bravo",
-    "sounds": [
-      "minecrap:bravo"
-    ]
-  },
   "b2tb": {
     "subtitle": "sounds.minecrap.b2tb",
     "sounds": [
       "minecrap:b2tb"
     ]
   },
-  "good_one": {
-    "subtitle": "sounds.minecrap.good_one",
-    "sounds": [
-      "minecrap:good_one"
-    ]
-  },
-
   "villager_trade":{
    "subtitle" : "sounds.minecrap.villager_trade",
    "sounds": [

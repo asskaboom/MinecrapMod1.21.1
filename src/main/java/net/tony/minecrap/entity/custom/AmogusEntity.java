@@ -14,6 +14,7 @@ import net.minecraft.util.Util;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;
+import net.tony.minecrap.Minecrap;
 import net.tony.minecrap.entity.ModEntities;
 import net.tony.minecrap.item.ModItems;
 
@@ -157,17 +158,18 @@ public class AmogusEntity extends AnimalEntity {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
+
         Random rng1 = new Random();
-        int rng = rng1.nextInt(10);
-            if (rng<=6) {
+
+        int rng = rng1.nextInt(21);
+
+            if (rng<=8) {
                 return ModSounds.AMOGUS_AMBIENT_2;
-            }else if (rng==7) {
-                return ModSounds.AMOGUS_AMBIENT_3;
-            }else if (rng==8) {
+            }else if (rng>=9 && rng<17) {
                 return ModSounds.AMOGUS_AMBIENT_4;
-            }else if (rng==9) {
-                return ModSounds.AMOGUS_AMBIENT_5;
-            }else {
+            }else if (rng>=17 && rng<20) {
+                return ModSounds.AMOGUS_AMBIENT_3;
+            }else{
                 return ModSounds.AMOGUS_AMBIENT_1;
             }
 

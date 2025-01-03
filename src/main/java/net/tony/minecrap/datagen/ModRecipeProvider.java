@@ -140,6 +140,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
                 .offerTo(exporter);
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.BONE_MEAL, 1)
+                .input(ModItems.SHIT)
+                .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.COAL, 1)
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.SHIT)
+                .criterion(hasItem(ModItems.SHIT), conditionsFromItem(ModItems.SHIT))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMOGUS_SPAWN_EGG, 2)
                 .pattern("STS")
                 .pattern("IFI")

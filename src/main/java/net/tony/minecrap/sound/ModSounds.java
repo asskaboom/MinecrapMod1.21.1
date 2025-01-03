@@ -28,9 +28,8 @@ public class ModSounds {
 
     public static final SoundEvent AMOGUS_AMBIENT_1 = registerSoundEvent("amogus_sus");
     public static final SoundEvent AMOGUS_AMBIENT_2 = registerSoundEvent("bing");
-    public static final SoundEvent AMOGUS_AMBIENT_3 = registerSoundEvent("bravo");
-    public static final SoundEvent AMOGUS_AMBIENT_4 = registerSoundEvent("b2tb");
-    public static final SoundEvent AMOGUS_AMBIENT_5 = registerSoundEvent("good_one");
+    public static final SoundEvent AMOGUS_AMBIENT_3 = registerSoundEvent("b2tb");
+    public static final SoundEvent AMOGUS_AMBIENT_4 = registerSoundEvent("bong");
     public static final SoundEvent AMOGUS_DEATH = registerSoundEvent("krab");
     public static final SoundEvent AMOGUS_HURT = registerSoundEvent("hurt");
 
